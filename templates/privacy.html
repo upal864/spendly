@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block title %}Privacy Policy — Spendly{% endblock %}
+
+{% block content %}
+
+<section class="policy-hero">
+    <div class="policy-hero-inner">
+        <div class="hero-badge">Legal</div>
+        <h1 class="policy-title">Privacy Policy</h1>
+        <p class="policy-subtitle">Last updated: May 2026</p>
+    </div>
+</section>
+
+<section class="policy-section">
+    <div class="policy-inner">
+
+        <div class="policy-block">
+            <h2 class="policy-heading">Data We Collect</h2>
+            <p class="policy-body">
+                When you create a Spendly account, we collect your name, email address, and a hashed version of your password.
+                As you use the app, we store the expense records you log — including amounts, categories, dates, and any descriptions you provide.
+                We do not collect payment information, government IDs, or any sensitive personal data.
+            </p>
+        </div>
+
+        <div class="policy-block">
+            <h2 class="policy-heading">How We Use Your Data</h2>
+            <p class="policy-body">
+                Your data is used solely to provide the Spendly service to you. This includes displaying your expense history,
+                generating category summaries, and allowing you to filter and review your spending.
+                We do not sell, rent, or share your personal data with third parties for marketing purposes.
+            </p>
+        </div>
+
+        <div class="policy-block">
+            <h2 class="policy-heading">Data Storage</h2>
+            <p class="policy-body">
+                Your data is stored in a secured database. Passwords are never stored in plain text — they are hashed
+                using industry-standard algorithms before being saved. We retain your data for as long as your account
+                is active. If you delete your account, all associated data will be permanently removed within 30 days.
+            </p>
+        </div>
+
+        <div class="policy-block">
+            <h2 class="policy-heading">Third-Party Services</h2>
+            <p class="policy-body">
+                Spendly uses Google Fonts to load typefaces for the interface. This means your browser may make a request
+                to Google's servers when you visit the app. Beyond this, we do not integrate with third-party analytics,
+                advertising networks, or data brokers. Any future integrations will be disclosed in an updated version
+                of this policy.
+            </p>
+        </div>
+
+        <div class="policy-block">
+            <h2 class="policy-heading">Contact Us</h2>
+            <p class="policy-body">
+                If you have any questions about this Privacy Policy or how your data is handled, please reach out to us
+                at <a href="mailto:privacy@spendly.app" class="policy-link">privacy@spendly.app</a>. We aim to respond
+                to all privacy-related enquiries within 5 business days.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+{% endblock %}

@@ -508,6 +508,71 @@ a { color: inherit; text-decoration: none; }
 }
 
 /* ------------------------------------------------------------------ */
+/* Policy pages                                                        */
+/* ------------------------------------------------------------------ */
+
+.policy-hero {
+    background: var(--paper-warm);
+    border-bottom: 1px solid var(--border);
+    padding: 4rem 2rem 3rem;
+    text-align: center;
+}
+
+.policy-hero-inner {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.policy-title {
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 4vw, 3rem);
+    color: var(--ink);
+    margin: 1rem 0 0.5rem;
+}
+
+.policy-subtitle {
+    font-size: 0.875rem;
+    color: var(--ink-faint);
+}
+
+.policy-section {
+    padding: 4rem 2rem 6rem;
+}
+
+.policy-inner {
+    max-width: 720px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.policy-block {
+    border-left: 3px solid var(--accent-light);
+    padding-left: 1.5rem;
+}
+
+.policy-heading {
+    font-family: var(--font-display);
+    font-size: 1.3rem;
+    color: var(--ink);
+    margin-bottom: 0.75rem;
+}
+
+.policy-body {
+    font-size: 0.95rem;
+    color: var(--ink-muted);
+    line-height: 1.8;
+}
+
+.policy-link {
+    color: var(--accent);
+    font-weight: 500;
+}
+
+.policy-link:hover { text-decoration: underline; }
+
+/* ------------------------------------------------------------------ */
 /* Responsive                                                          */
 /* ------------------------------------------------------------------ */
 

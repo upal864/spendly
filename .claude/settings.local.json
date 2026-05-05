@@ -3,6 +3,7 @@
     "allow": [
       "PowerShell(.\\\\venv\\\\Scripts\\\\Activate.ps1)",
       "PowerShell(python --version)"
+      
     ]
   }
 }
